@@ -1,0 +1,10 @@
+[package]
+name = "third_wasm"
+version = "0.1.0"
+authors = ["User <userId@example.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies] 
+third_gtk4 = { path = "../third_gtk4" }

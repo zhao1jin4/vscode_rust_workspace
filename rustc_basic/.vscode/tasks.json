@@ -1,0 +1,21 @@
+{
+    "tasks": [ 
+        {
+            "type": "cppbuild",
+            "label": "rustc_build",
+            "command": "rustc",
+            "args": [
+                "${workspaceFolder}/src/${fileBasename}",
+                "--out-dir",
+                "target",
+                "-o",
+                "${workspaceFolder}/target/${fileBasenameNoExtension}.exe",
+                "-g"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}",
+            }
+        }
+    ],
+    "version": "2.0.0"
+}
